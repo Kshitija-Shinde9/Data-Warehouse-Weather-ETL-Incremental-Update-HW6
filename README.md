@@ -8,9 +8,14 @@ This project builds a daily weather data pipeline using Apache Airflow and Snowf
 Every day at 3:30 AM, it automatically fetches weather data for New York City 
 and stores it in Snowflake database.
 
+<img width="1710" height="494" alt="image" src="https://github.com/user-attachments/assets/4389b621-a0d8-4802-a8f7-fc8ecc187852" />
+
+
 ## How It Works
 1. **Extract** - Downloads today's weather data from Open-Meteo API
 2. **Load** - Saves the data into Snowflake table
+
+<img width="1710" height="899" alt="image" src="https://github.com/user-attachments/assets/3aa0a6a0-139d-445d-be55-fc4924eb2a64" />
 
 ## Incremental Logic
 Unlike a full refresh, this pipeline only updates one day at a time:
