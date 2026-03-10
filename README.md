@@ -29,9 +29,3 @@ Unlike a full refresh, this pipeline only updates one day at a time:
 - Database: USER_DB_FERRET
 - Schema: RAW
 - Table: WEATHER_DATA_HW6
-
-## Author
-Kshitija Shinde
-DATA226 - Data Warehouse
-San Jose State University
-Spring 2026
